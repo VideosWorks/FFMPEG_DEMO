@@ -7,7 +7,7 @@
 
 #include <thread>
 
-#include "AppConfig.h"
+#include "MoudleConfig.h"
 #include "ReadAudioFileThread.h"
 
 #if defined(WIN32)
@@ -160,7 +160,7 @@ void ReadAudioFileThread::run()
                 }
                 else
                 {
-                    AppConfig::mSleep(50);
+                    MoudleConfig::mSleep(50);
                 }
             }
 
